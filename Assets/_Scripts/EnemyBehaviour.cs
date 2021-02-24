@@ -12,6 +12,7 @@ public class EnemyBehaviour : MonoBehaviour
     void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
+        player = GameObject.Find("Player").transform;
     }
 
     // Update is called once per frame

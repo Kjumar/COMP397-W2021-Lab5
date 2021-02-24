@@ -860,7 +860,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &782896053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1126,7 +1126,7 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   m_Layer: 0
-  m_Name: PlayerCam
+  m_Name: PlayerCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1730,6 +1730,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2193279110445528308, guid: e9e4166c721cce6469619a4eb187d055, type: 3}
+      propertyPath: playerCamera
+      value: 
+      objectReference: {fileID: 963194228}
+    - target: {fileID: 3248589203447478294, guid: e9e4166c721cce6469619a4eb187d055, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3248589203447478294, guid: e9e4166c721cce6469619a4eb187d055, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3248589203619905348, guid: e9e4166c721cce6469619a4eb187d055, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -1782,9 +1794,9 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 427017911}
-    - target: {fileID: 3248589203619905375, guid: e9e4166c721cce6469619a4eb187d055, type: 3}
-      propertyPath: m_StoppingDistance
-      value: 2
-      objectReference: {fileID: 0}
+    - target: {fileID: 3248589204512698770, guid: e9e4166c721cce6469619a4eb187d055, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 963194227}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9e4166c721cce6469619a4eb187d055, type: 3}
